@@ -18,7 +18,7 @@ public class Main {
                 switch (choiceSwitch) {
                     case 1 -> data.AddUser();
                     case 2 -> data.DeleteUser();
-                    case 3 -> System.out.println("Not working... wait for update");
+                    case 3 -> data.EditUser();
                     case 4 -> data.CheckUser();
                     default -> System.out.println("There isn't that option");
                 }
@@ -31,3 +31,4 @@ public class Main {
 
     }
 }
+
